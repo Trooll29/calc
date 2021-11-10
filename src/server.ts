@@ -14,6 +14,6 @@ server.use(express.urlencoded({extended:true}));
 
 server.use(MainRoutes)
 
-server.listen(3000)
+server.listen(process.env.PORT || 3000)
 
 
