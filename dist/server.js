@@ -14,4 +14,4 @@ server.engine('mustache', (0, mustache_express_1.default)());
 server.use(express_1.default.static(path_1.default.join(__dirname, '../public')));
 server.use(express_1.default.urlencoded({ extended: true }));
 server.use(routes_1.default);
-server.listen(80);
+server.listen(3000);
